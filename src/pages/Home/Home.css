@@ -1,0 +1,131 @@
+.home-cont {
+  background: #100c0d;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin-top: 18em;
+  margin-left: 8rem;
+}
+.hero-text > h1 {
+  color: #ffff;
+  font-family: "Roboto";
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+.hero-text > h2 {
+  /* color: #ffff; */
+  color: #274d58;
+  font-family: "Roboto";
+  font-size: clamp(4.5em, 4em, 3.5em);
+  margin: 0;
+}
+.hero-text > h3 {
+  color: #ffff;
+  font-family: "Roboto";
+
+  /* simple auto typing animation */
+
+  /* animation: typing 2s;
+  white-space: nowrap;
+  letter-spacing: 0.05rem;
+  overflow: hidden; */
+  width: 15em;
+}
+.hero-text > a {
+  text-decoration: none;
+  text-align: center;
+  color: black;
+  /* padding: 1em; */
+  padding-top: 1em;
+  padding-bottom: 1em;
+  background: #274d58;
+  border: none;
+  border-radius: 4em;
+  width: 8em;
+  /* height: 2.5em; */
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+.hero-image > img {
+  width: 33em;
+}
+
+.hero-image {
+  margin-right: 10em;
+  margin-top: 12em;
+  align-items: center;
+  justify-content: center;
+}
+@keyframes typing {
+  from {
+    width: 1%;
+  }
+  to {
+    width: 100%;
+  }
+}
+@media (max-width: 940px) {
+  /* .hero-image {
+    display: none;
+  } */
+  .hero-image > img {
+    width: 30em;
+  }
+  .hero-text {
+    width: auto;
+    justify-content: center;
+    flex: 1;
+  }
+  .hero-text>a{
+    padding: 0;
+    padding: 1em;
+  }
+}
+@media (max-width: 890px) {
+  .hero-image > img {
+    width: 28em;
+  }
+  .hero-text {
+    padding-bottom: 3em;
+  }
+}
+@media (max-width: 860px) {
+  .hero-image {
+    display: none;
+  }
+  .hero-text {
+    margin-top: 8rem;
+  }
+}
+@media (max-width: 420px) {
+  .hero-text {
+    margin: 6em;
+    padding-top: 8em;
+    text-align: center;
+  }
+  .hero-text > h3 {
+    width: auto;
+  }
+  .hero-text > button {
+    margin-left: 2em;
+  }
+}
+@media (max-width: 390px) {
+  .hero-text > button {
+    margin-left: 1em;
+  }
+}
+@media (max-width: 320px) {
+  .hero-text {
+    padding-top: 10em;
+    margin: 0;
+  }
+  .hero-text > button {
+    margin-left: 3em;
+  }
+}

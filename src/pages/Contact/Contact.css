@@ -1,0 +1,90 @@
+.contact-cont{
+  width: 100%;
+  height: auto;
+  background-color: rgb(62, 73, 82);
+  display: flex;
+}
+.contact-info{
+    display: flex;
+    flex-wrap: wrap;
+justify-content: center;
+}
+/* .contact-info>img{
+    width: 5em;
+    margin-top: 5em;
+    margin-left: 5em;
+} */
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+   margin-right: 4em;
+   padding-bottom: 1em;
+}
+.flex>a{
+    text-decoration: none;
+    color: black;
+    margin-top: 3em;
+    margin-left: 2em;
+    margin-bottom: 2em;
+}
+.flex>h3{
+    text-decoration: none;
+    color: black;
+    margin-top: 3.5em;
+    margin-left: 2em;
+}
+.flex>img{
+    width: 5em;
+    margin-top: 2.5em;
+    margin-left: 5em;
+   
+}
+.name{
+border: none;
+border-radius: 3em;
+height: 2em;
+width: 8em;
+}
+.email{
+border: none;
+border-radius: 3em;
+height: 2em;
+width: 15em;
+
+}
+.footer{
+    width: 100%;
+    height: auto;
+    background-color: rgb(27, 26, 26);
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.footer>a>input{
+    width: 4.5em;
+    margin-top: 1em;
+
+}
+.icons{
+
+}
+.icons>a>input{
+    width: 3em;
+    margin: 1em;
+}
+.copyright>h3{
+    margin-top: 1em;
+}
+@media (max-width:390px){
+.flex>img{
+margin-left: 0;
+}
+.flex>h3{
+    font-size: .8em;
+    margin-top: 8em;
+}
+.flex>a{
+    margin-top: 8em;
+    font-size:.8em ;
+}
+}
