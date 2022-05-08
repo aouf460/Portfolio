@@ -25,7 +25,7 @@ function Contact() {
       </div>
       <div className='flex'>
       <img src={Phone}/>
-      <a href='tel:+971581292370'><h3>+971 (0) 581 292 370</h3></a>
+      <a href='tel:+971586828506'><h3>+971 (0) 586 828 506</h3></a>
       </div>
       </div>
       {/* <div className='contact-mail'>
@@ -35,11 +35,10 @@ function Contact() {
       </div> */}
     </div>
     <div className='footer'>
-{/* <input type={'image'} src={Logo} ></input> */}
 <a href='#home'><input type={"image"} src={Logo} /> </a>
 
 <div className='copyright'>
-  <h3>© Copyright 2021. All rights reserved</h3>
+  <h3>© Copyright 2022. All rights reserved</h3>
 </div>
 <div className='icons'>
 <a href=''><input type={'image'} src={Wp}/></a>

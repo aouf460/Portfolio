@@ -55,7 +55,7 @@ width: 15em;
 .footer{
     width: 100%;
     height: auto;
-    background-color: rgb(27, 26, 26);
+    background-color:rgb(46, 54, 61);
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
@@ -63,7 +63,7 @@ width: 15em;
 .footer>a>input{
     width: 4.5em;
     margin-top: 1em;
-
+    margin-right: 2em;
 }
 .icons{
 
