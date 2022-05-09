@@ -41,7 +41,7 @@ function Contact() {
   <h3>© Copyright 2022. All rights reserved</h3>
 </div>
 <div className='icons'>
-<a href=''><input type={'image'} src={Wp}/></a>
+<a href='https://wa.me/message/EZ3X74VU6JWVK1'><input type={'image'} src={Wp}/></a>
 <a href='https://www.linkedin.com/in/omar-aouf-aa03b4211'><input type={'image'} src={Linked}/></a>
 <a href='https://www.instagram.com/aouf.dev/'><input type={'image'} src={Insta}/></a>
 
