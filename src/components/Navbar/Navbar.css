@@ -41,17 +41,19 @@
 .hidden-menu{
   display: none;
   position: fixed;
-  top: 88%;
-  left: 10%;
-  width: 80%;
-  height: 5em;
-  background-color:#38798c ;
+  top: 35%;
+  left: 82%;
+  width: 5em;
+  height: 20em;
+  /* background-color:#274d58; */
+  background-color: transparent;
   border-radius: 5em;
   
 }
 .hidden-menu >a >input{
   width: 3em;
   margin: 1.4em;
+  border-radius: 1em;
 }
 @media (max-width: 1000px) {
   .logo {
@@ -67,12 +69,13 @@
     margin: 0;
   }
   .hidden-menu{
-    display: flex;
+    display: none;
+    flex-direction: column;
     justify-content: space-around;
   }
 }
 @media (max-width:360px){
-  .hidden-menu> a >input{
+  /* .hidden-menu> a >input{
     width: 2em;
     margin: 0;
     margin-top: .5em;
@@ -80,7 +83,7 @@
   .hidden-menu{
     height: 3em;
     top: 90%;
-  }
+  } */
 }
 
 html {

@@ -31,7 +31,7 @@ function Navbar() {
         </div>
     </div>
     <div className='hidden-menu'>
-     <a href='#home'><input type={"image"} src={Home} /> </a>
+     <a href='#home'><input type={"image"} src={Home}/> </a>
      <a href='#about'> <input type={"image"} src={About}/> </a>
      <a href='#services'><input type={"image"} src={Service}/> </a>
      <a href='#contact'> <input type={"image"} src={Contact}/> </a>

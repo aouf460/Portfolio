@@ -22,10 +22,6 @@ function App() {
       <div id='contact'>
         <Contact/>
       </div>
-     {/* <Home/>
-     <About/>
-     <Services/>
-     <Contact/> */}
     </div>
   );
 }
